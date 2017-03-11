@@ -1,0 +1,16 @@
+---
+sudo: false
+addons:
+  apt:
+    packages:
+      - aspell
+      - aspell-en
+      - libaspell-dev
+language: ruby
+rvm:
+  - "2.0.0"
+  - "2.1.0"
+  - "2.2.3"
+script:
+  - "bundle exec rake spec"
+  - "bundle exec rake features"
