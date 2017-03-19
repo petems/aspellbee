@@ -19,6 +19,8 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 1.9.2'
 
   gem.add_dependency 'thor', '0.18.1'
+  gem.add_dependency 'ffi-aspell'
+  gem.add_dependency 'worte'
   gem.add_dependency 'raspell'
   gem.add_dependency 'middleware', '0.1.0'
 
